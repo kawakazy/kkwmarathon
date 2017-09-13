@@ -40,6 +40,10 @@ body{
     padding-left: 15px;
 }
 
+#header a{
+  text-decoration: none;
+}
+
 #search{
 position: absolute;
 width: 40%;
@@ -70,23 +74,25 @@ display: inline;
 </style>
 
 <div id='header'>
- <h1 style="  position: absolute;left: 50px;top: 10px;">marathon</h1>
+ <h1 style="  position: absolute;left: 50px;top: 10px;"><a href='index'>marathon</a></h1>
 
  <ul>
-   <li>Find Photo</li>
-   <li>Browse Event</li>
+   <li><a href='find'>Find Photo</a></li>
+   <li><a href='#'>Browse Event</a></li>
    <li>EN <i class="glyphicon glyphicon-triangle-bottom" style="font-size:14px;"></i></li>
-   <li><i class="glyphicon glyphicon-question-sign"></i></li>
-   <li><i class="glyphicon glyphicon-user"></i></li>
+   <li><a href='#>'<i class="glyphicon glyphicon-question-sign"></i></a></li>
+   <li><a href='login'><i class="glyphicon glyphicon-user"></i></a></li>
  </ul>
 </div>
 
 <div id='search' class="form-inline text-center">
   <div>
-  <h1>Register</h1>
+  <h1>Login</h1>
   <input placeholder="email" type="text" name="race" style="padding-left:10px;font-size:20px;width:300px;height:40px;"><br><br>
   <input placeholder="password" type="text" name="bib" style="padding-left:10px;font-size:20px;width:300px;height:40px;"><br><br>
   <input type="submit" value="LOGIN" class="btn btn-danger" style="font-size:16px; width:180px; height:50px;">
+  <span style="color:#333; font-size:12px;"
+
 </div>
 </div>
 
